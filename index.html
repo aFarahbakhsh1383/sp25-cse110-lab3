@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Notes Web Page</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    </head>
+
+  <body>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="/favicon.jpg">Favicon</a></li>
+                </ul>
+            </nav>
+            <h1>Meeting Notes</h1>
+            <p>Group 30</p>
+        </header>
+    <h2><i>Nerdy Thirty</i> <br> </h2>
+    <h2>Topic: <em>Brainstorming</em></h2>
+    <h3>Date: 04/14/2025. Time: 1:30 pm</h3>
+
+    <div class="attendees">
+        <h4>Attendees:</h4>
+        <ul>
+            <li>Ali F</li>
+            <li>Aldrin Ilagan</li>
+            <li>Cody Lee</li>
+        </ul>
+    </div>
+
+    <div class="agenda">
+        <h4>Agenda:</h4>
+        <ol>
+            <li>Brainstorming video ideas</li>
+            <li>Gihub repo updates</li>
+        </ol>
+    </div>
+
+    <div class="unfinished_ideas">
+        <h4>Unfinished Ideas:</h4>
+        <ul>
+            <li>Have to decide on a logo for the team</li>
+
+        </ul>
+    </div>
+
+    <div class="new_work">
+        <h4>New Business :</h4>
+        <ul>
+            <li>Get working on video, come up with script</li>
+            <li>Come up with format for Github pages</li>
+            
+        </ul>
+    </div>
+
+    <div class="comments">
+        <h4>Other Comments:</h4>
+        <ul>
+            <li><b>Ali:</b> We should make sure to set the slack icon too </li>
+            
+        </ul>
+    </div>
+    <section>
+    <form id="form">
+        <fieldset>
+            <label>Are there more meeting notes?</label>
+            <br>
+            <input type="radio">
+            <label>Yes</label><br>
+            <input type="radio">
+            <label >No</label><br>
+            <br>
+            <label>Meeting Link:</label><br>
+            <input type="text"><br>
+            <label>Check if everyone showed up</label>
+            <br>
+            <input type="checkbox">
+            <br>
+            <label> Next Meeting Date</label> <br>
+            <input type="date"><br>
+            <label>Additional Comments</label><br>
+            <textarea></textarea><br>
+            <br>
+            <label> Day of next meeting</label>
+            <br>
+            <input type="text" list="day"><br>
+            <datalist id="day"> 
+                <option value="Monday">
+                <option value="Tuesday">
+                <option value="Wednesday">
+                <option value="Thursday">
+                <option value="Friday">
+                <option value="Saturday">
+                <option value="Sunday">
+            </datalist>
+            <br>
+            <label> Reason for meeting</label> <br>
+            <select> 
+                <option value="Brainstorming">Brainstorming</option>
+                <option value="Fun Activities">Fun Activities</option>
+                <option value="Project Updates">Project Updates</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+        </fieldset>
+        <button>
+            Submit
+        </button>
+    </form>
+</section>
+    <div class="images">
+        <h4>Images:</h4>
+
+        <span id="proposal_image_span">
+            <p>Our porposed image:</p>
+            <img src="https://raw.githubusercontent.com/cse110-sp25-group30/cse110-sp25-group30/refs/heads/main/admin/branding/cse_110_logo.jpg" alt="Our proposed icon" height="200">
+        </span>
+        
+    </div>
+    
+    <audio controls>
+        <source src="CSE 110 Team 30 Video.mp3" type="audio/mpeg">
+      </audio>
+      <video id="video"  controls>
+        <source src="videoplayback (1).mp4" type="video/mp4">
+      </video>
+
+    <details>
+        <summary>More meeting/group info</summary>
+        <a href="https://github.com/cse110-sp25-group30/cse110-sp25-group30">Github Repo</a>
+        <hr>
+        <p>We <strong >need</strong> to work more about the video.</p>
+    </details>
+
+    <footer>
+        <p>Group 30 meeting notes html by Ali Farahbakhsh</p>
+        </footer>
+</main>
+  </body>
+</html>
