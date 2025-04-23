@@ -105,7 +105,7 @@ header{
     top: 10px
 }
 h4{
-    color: color(srgb 0 0 0.5);
+    color: color(srgb 0 0 50%);
 }
 .agenda li {
     font-size: 1.5em
@@ -128,7 +128,7 @@ h2#after_id + h3 {
     color: darkgreen !important;
 }
 h3{
-    color: color-mix(in srgb, blue 50%, black 50%)
+    color: color-mix(in srgb, blue 50%, black 50%);
 }
 img{
     width: 50vw;
