@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Meeting Notes Web Page</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     </head>
 
   <body>
     <main>
-        <header>
-            <div>
+        <header id="after_id">
             <nav>
-                <ul>
+                <ul id="nav_list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#form">Form</a></li>
                     <li><a href="#video">Video</a></li>
                     <li><a href="https://github.com/aFarahbakhsh1383/Lab2_Starter/blob/main/favicon.jpg">Favicon</a></li>
                 </ul>
             </nav>
-        </div>
-            <h1 id="page_title">Meeting Notes</h1>
-            <p>Group 30</p>
+           
         </header>
-    <h2><i>Nerdy Thirty</i> <br> </h2>
-    <h2>Topic: <em>Brainstorming</em></h2>
-    <h3>Date: 04/14/2025. Time: 1:30 pm</h3>
+        <h1 id="page_title">Meeting Notes</h1>
+        <p>Group 30</p>
+    <h2 id="i_text"><i>Nerdy Thirty</i> <br> </h2>
+    <h2 id="after_id">Topic: <em>Brainstorming</em></h2>
+    <h3 >Date: 04/14/2025. Time: 1:30 pm</h3>
 
     <div class="attendees">
-        <h4>Attendees:</h4>
+        <h4 id="attendance">Attendees:</h4>
         <ul>
             <li>Ali F</li>
             <li>Aldrin Ilagan</li>
@@ -113,35 +116,35 @@
                 <option value="Other">Other</option>
             </select>
         </fieldset>
-        <button>
+        <button id="submit_button">
             Submit
         </button>
     </form>
 </section>
     <div class="images">
         <h4>Images:</h4>
-        <div>
         <span id="proposal_image_span">
             <img src="https://raw.githubusercontent.com/cse110-sp25-group30/cse110-sp25-group30/refs/heads/main/admin/branding/cse_110_logo.jpg" alt="Our proposed icon" height="200">
         </span>
         
     </div>
-    </div>
-    
+    <div id ="media_content">
     <audio controls>
         <source src="audio.mp3" type="audio/mpeg">
       </audio>
       <video id="video"  controls>
         <source src="cse_110_vid.mp4" type="video/mp4">
       </video>
-
+    </div>
     <details>
         <summary>More meeting/group info</summary>
         <a href="https://github.com/cse110-sp25-group30/cse110-sp25-group30">Github Repo</a>
         <hr>
         <p>We <strong >need</strong> to work more about the video.</p>
     </details>
-
+    <div attribute="Ali_hi" id="bottom_right_text">
+        Hi from group 30!
+    </div>
     <footer>
         <p>Group 30 meeting notes html by Ali Farahbakhsh</p>
         </footer>
