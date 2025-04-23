@@ -10,6 +10,7 @@
   <body>
     <main>
         <header>
+            <div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -18,7 +19,8 @@
                     <li><a href="https://github.com/aFarahbakhsh1383/Lab2_Starter/blob/main/favicon.jpg">Favicon</a></li>
                 </ul>
             </nav>
-            <h1>Meeting Notes</h1>
+        </div>
+            <h1 id="page_title">Meeting Notes</h1>
             <p>Group 30</p>
         </header>
     <h2><i>Nerdy Thirty</i> <br> </h2>
@@ -63,32 +65,33 @@
         <h4>Other Comments:</h4>
         <ul>
             <li><b>Ali:</b> We should make sure to set the slack icon too </li>
+            <li style="display:none"><b>Ali:</b> We should make sure to set the slack icon too </li>
             
         </ul>
     </div>
-    <section>
-        <h2> Form</h2>
+    <section id="form">
+        <h2 style="display:inline"> Form</h2>
     <form id="form">
         <fieldset>
-            <label>Are there more meeting notes?</label>
+            <label class="form_text">Are there more meeting notes?</label>
             <br>
             <input type="radio">
-            <label>Yes</label><br>
+            <label class="form_text">Yes</label><br>
             <input type="radio">
-            <label >No</label><br>
+            <label class="form_text" >No</label><br>
             <br>
-            <label>Meeting Link:</label><br>
+            <label class="form_text">Meeting Link:</label><br>
             <input type="text"><br>
-            <label>Check if everyone showed up</label>
+            <label class="form_text">Check if everyone showed up</label>
             <br>
             <input type="checkbox">
             <br>
-            <label> Next Meeting Date</label> <br>
+            <label class="form_text"> Next Meeting Date</label> <br>
             <input type="date"><br>
-            <label>Additional Comments</label><br>
+            <label class="form_text">Additional Comments</label><br>
             <textarea></textarea><br>
             <br>
-            <label> Day of next meeting</label>
+            <label class="form_text"> Day of next meeting</label>
             <br>
             <input type="text" list="day"><br>
             <datalist id="day"> 
@@ -101,7 +104,7 @@
                 <option value="Sunday">
             </datalist>
             <br>
-            <label> Reason for meeting</label> <br>
+            <label class="form_text"> Reason for meeting</label> <br>
             <select> 
                 <option value="Brainstorming">Brainstorming</option>
                 <option value="Fun Activities">Fun Activities</option>
@@ -117,11 +120,12 @@
 </section>
     <div class="images">
         <h4>Images:</h4>
-
+        <div>
         <span id="proposal_image_span">
             <img src="https://raw.githubusercontent.com/cse110-sp25-group30/cse110-sp25-group30/refs/heads/main/admin/branding/cse_110_logo.jpg" alt="Our proposed icon" height="200">
         </span>
         
+    </div>
     </div>
     
     <audio controls>
