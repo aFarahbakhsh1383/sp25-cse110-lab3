@@ -1,0 +1,182 @@
+/* Main CSS file for the project */
+*{
+    box-sizing: border-box;
+}
+:root {
+    --main-bg-color:rgb(221, 208, 208);
+}
+body {
+    font-family: "Comic Neue", sans-serif;
+    background-color: var(--main-bg-color, white);
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: #032cc5;
+    text-align: center;
+    font-size: 2.5em;
+}
+.form_text{
+    color: white;
+    text-decoration:underline dashed blue ;
+}
+
+#media_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 500px;
+}
+div[attribute="Ali_hi"]{
+font-family:"Arial", sans-serif;
+}
+@media (max-width: 600px) {
+    nav{
+        width: 100% !important;
+    }
+    #bottom_right_text{
+        display: none;
+    }
+    #video{
+        width: 100% !important;
+        height: 100% !important;
+    }
+  }
+  
+fieldset {
+    padding: 2cm;
+    margin: .1in;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 30px;
+    padding:10px;
+    background-color: hsl(0, 100%,50%);
+}
+h2{
+    color: blue;
+    font-size: 1.8rem;
+}
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+li, ul, ol{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: hsl(0deg 6.18% 45.38%);
+    border-radius: 30px;
+    position: sticky;
+    top: 10px
+}
+h4{
+    color: color(srgb 0 0 0.5);
+}
+.agenda li {
+    font-size: 1.5em
+}
+#i_text > i{
+    color: red;
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+#attendance ~ ul  {
+    margin: 0px 0px 0px 20px;
+    padding: 10px 10px 10px 20px;
+    list-style-type: circle;
+}
+span:has(img){
+    border-style: solid;
+    border-color: blue;
+}
+h2#after_id + h3 {
+    color: darkgreen !important;
+}
+h3{
+    color: color-mix(in srgb, blue 50%, black 50%)
+}
+img{
+    width: 50vw;
+    height: 50vw;
+    max-height: 300px;
+    min-width: 130px;
+    min-height: 130px;
+    max-width: 300px;
+}
+#form{
+    margin: 5px 0px 5px -3px
+}
+#bottom_right_text{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 1.5em;
+    color: blue
+}
+#bottom_right_text:hover{
+    color: green !important;
+    text-decoration: underline;
+}
+a:active{
+    color: green;
+    text-decoration: underline;
+}
+#page_title{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left:1px;
+    margin-right: 1px;
+}
+nav{
+    margin:auto;
+    width: 500px;
+    padding: 5px 5px 7px 6px;
+    #nav_list{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+details{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-top: 7px
+}
